@@ -10,4 +10,4 @@ const $root = document.querySelector("#root");
 const $htmlCardGame = CardGame()
 
 
-$root.insertAdjacentHTML("beforeend", $htmlCardGame);
+$root.insertAdjacentHTML("beforeend", $htmlCardGame + $htmlCardGame + $htmlCardGame + $htmlCardGame);
